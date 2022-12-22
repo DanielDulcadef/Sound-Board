@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins'; font-size: 19px;
+}
+body{
+    background-color: #A164DF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 450px;
+  
+}
+
+.btn{
+    display: flex;
+    background-color: #663399;
+    width: 150px;
+    height: 80px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    cursor:pointer;
+
+}
+#buttons{
+    gap: 1cm;
+    display: flex;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
